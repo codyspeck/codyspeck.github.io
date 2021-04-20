@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && echo > out\\.nojekyll",
+    "build": "next build && next export",
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out -t"
